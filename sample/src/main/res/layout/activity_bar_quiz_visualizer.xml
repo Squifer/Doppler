@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.chibde.visualizer.BarVisualizer
+        android:id="@+id/visualizer"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_below="@+id/visualizer"
+        android:background="@color/custom"
+        android:onClick="quizSelectCorrect"
+        android:text="@string/quiz_selection1_1"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_below="@+id/button1"
+        android:background="@color/custom"
+        android:onClick="quizSelectWrong"
+        android:text="@string/quiz_selection1_2"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_below="@+id/button2"
+        android:background="@color/custom"
+        android:onClick="quizSelectWrong"
+        android:text="@string/quiz_selection1_3"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_below="@+id/button3"
+        android:background="@color/custom"
+        android:onClick="quizSelectWrong"
+        android:text="@string/quiz_selection1_4"
+        android:textColor="@color/white"/>
+
+    <include layout="@layout/layout_audio_quiz_buttons"/>
+
+</RelativeLayout>

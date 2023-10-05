@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Doppler</string>
+    <string name="image_play_pause">Play Pause Button</string>
+    <string name="image_replay_button">Replay Button</string>
+    <string name="line_visualizer">Line Visualizer</string>
+    <string name="bar_visualizer">Bar Visualizer</string>
+    <string name="circle_visualizer">Circle Visualizer</string>
+    <string name="circle_bar_visualizer">Circle Bar Visualizer</string>
+    <string name="line_bar_visualizer">Line Bar Visualizer</string>
+    <string name="activity_with_service">Activity With Service</string>
+    <string name="square_bar_visualizer">Square Bar Visualizer</string>
+    <string name="quiz_selection1_1">Train</string>
+    <string name="quiz_visualizer">Doppler Effect</string>
+    <string name="quiz_selection1_2">Talking</string>
+    <string name="quiz_selection1_3">plane</string>
+    <string name="quiz_selection1_4">ambulance</string>
+    <string name="what_doppler_effect">What is the Doppler Effect?</string>
+    <string name="quiz_selection">Quiz</string>
+</resources>

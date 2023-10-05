@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="16dp"
+  android:paddingRight="16dp"
+  android:background="@drawable/yellowbackgroundv5">
+
+    <Button
+        android:id="@+id/button_video"
+        android:layout_width="195dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_border"
+        android:backgroundTint="@color/purple"
+        android:onClick="dopplerVideo"
+        android:text="@string/what_doppler_effect"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/what_doppler_image"
+        android:layout_width="178dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/button_video"
+        android:onClick="dopplerVideo"
+        android:src="@drawable/cutequestionv4_165_cyan2" />
+
+    <Button
+        android:id="@+id/line_visualiser"
+        android:layout_width="195dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/what_doppler_image"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_border"
+        android:backgroundTint="@color/orangeish"
+        android:onClick="lineBar"
+        android:text="@string/line_visualizer"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/line_visualiser_image"
+        android:layout_width="175dp"
+        android:layout_height="155dp"
+        android:layout_alignBottom="@id/line_visualiser"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@id/line_visualiser"
+        android:onClick="lineBar"
+        android:src="@drawable/cuteheadphonesv2_165" />
+
+    <!--<Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginRight="8dp"
+       android:layout_marginStart="8dp"
+       android:background="@color/custom"
+       android:onClick="bar"
+       android:text="@string/bar_visualizer"
+       android:textColor="@color/white"/>-->
+
+   <!--<Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginRight="8dp"
+       android:layout_marginStart="8dp"
+       android:background="@color/custom"
+       android:onClick="quizStart"
+       android:text="@string/quiz_selection"
+       android:textColor="@color/white"/>-->
+
+   <!--<Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginStart="8dp"
+      android:background="@color/custom"
+      android:onClick="circle"
+      android:text="@string/circle_visualizer"
+      android:textColor="@color/white"/>-->
+
+   <!--<Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginStart="8dp"
+      android:background="@color/custom"
+      android:onClick="circleBar"
+      android:text="@string/circle_bar_visualizer"
+      android:textColor="@color/white"/>-->
+
+  <!--<Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/custom"
+     android:onClick="lineBar"
+     android:layout_marginTop="8dp"
+     android:layout_marginEnd="8dp"
+     android:layout_marginLeft="8dp"
+     android:layout_marginRight="8dp"
+     android:layout_marginStart="8dp"
+     android:text="@string/line_bar_visualizer"
+     android:textColor="@color/white"/>-->
+
+ <!--<Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="8dp"
+     android:layout_marginEnd="8dp"
+     android:layout_marginLeft="8dp"
+     android:layout_marginRight="8dp"
+     android:layout_marginStart="8dp"
+     android:background="@color/custom"
+     android:onClick="service"
+     android:text="@string/activity_with_service"
+     android:textColor="@color/white"/> -->
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/custom"
+        android:onClick="square"
+        android:text="@string/square_bar_visualizer"
+        android:textColor="@color/white"/>-->
+</RelativeLayout>
